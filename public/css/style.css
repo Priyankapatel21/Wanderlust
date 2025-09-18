@@ -56,7 +56,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: space-evenly;
-    width: 100vw !important; 
 }
 
 /*cards */
