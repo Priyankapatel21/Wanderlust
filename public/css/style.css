@@ -47,7 +47,31 @@ body {
 
 }
 
+/* Fix footer on detail pages with complex grid layouts */
+.show-card ~ footer,
+body footer {
+    width: 100vw !important;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+}
 
+/* Ensure f-info spans full width */
+.f-info {
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 1rem 0;
+}
+/* 
 .f-info {
     text-align: center;
     height: 8rem;
@@ -56,7 +80,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: space-evenly;
-}
+} */
 
 /*cards */
 .card-review {
